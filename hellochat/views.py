@@ -10,13 +10,21 @@ def sign(request):
     return render(request,"sign.html")
 
 def checkview(request):
+    print('c1')
     room = request.POST['room_name']
+    print('c2')
     username = request.POST['username']
+    print('c3')
     if Room.objects.filter(name=room).exists():
+        print('c4')
         return redirect('/'+room+'/?username='+username)
+
     else:
+        print('c5')
         new_room = Room.objects.create(name=room)
+        print('c6')
         new_room.save()
+        print('c7')
         return redirect('/'+room+'/?username='+username)
 
 def room(request, room):
