@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>HelloChat/sign-up</title>
+</head>
+<body>
+    <header>
+        <a href="{% url 'index' %}"><img src="{% static 'images/left-arrow.png' %}" alt=""> </a>
+        <div class="sign-content">
+            <h1 class="sign-head">Sign-up</h1>  
+            <div class="sign-btn">
+                <form action="checkview" method="POST">
+                    {% csrf_token %}
+                    <div><input type="text" placeholder="Username" name="username"><br></div>
+                    <div><input type="text" placeholder="Room name" name="room_name"><br></div>
+                    <div><input type="submit" value="Submit"></div>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <h5>Copyright 2021 @ Swapnil Saha</h5>
+        </footer>
+    </header>
+
+</body>
+
+    
+</html>

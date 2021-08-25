@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Style+Script&family=Ubuntu:wght@500&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    height: 17.6cm;
+    background: linear-gradient( rgba(160, 39, 176, 0.2), rgba(233, 30, 99, 0.70) ),url(images/bg2.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+header h1{
+    font-family: 'Style Script';
+    color: whitesmoke;
+    font-size: 2cm;
+    padding-left: 13.4cm;
+}
+header h3{
+    color: aliceblue;
+    font-family: 'Amatic SC';
+    font-size: 2.2cm;
+    padding-left: 8cm;
+    
+}
+.content{
+    padding-top: 4.2cm;
+}
+.sign-content{
+    padding-top: 2.5cm;
+}
+.btn{
+    padding-top: 30px;
+    padding-left: 12.4cm;
+}
+.btn a{
+    padding-left: 1cm;
+    
+}
+.btn input{
+    width: 4cm;
+    height: 1.6cm;
+    background: transparent;
+    font-family: 'Ubuntu';
+    font-size: 0.6cm;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 3px;
+    border: 2px solid rgb(245, 6, 245);
+    border-radius: 20px;
+}
+
+
+.btn input:hover{
+    background:  linear-gradient( rgba(160, 39, 176, 0.2), rgba(233, 30, 99, 0.70) ) no-repeat center fixed;
+}
+
+footer{
+    margin-top: 4cm;
+    margin-left: 13.7cm;
+    font-family: 'Ubuntu';
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.sign-btn form{
+    margin-left: 12.8cm;
+}
+.sign-btn form input{
+    padding-right: 4px;
+    padding-left: 6px;
+    padding-bottom: 5px;
+    padding-top: 2px;
+    font-size: 20px;
+    background: whitesmoke;
+    border-radius: 6px;
+    border: 2px solid black;
+}
+.sign-btn form div input:last-child{
+    background: transparent;
+    color: aliceblue;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.sign-btn form div input:last-child:hover{
+    background:linear-gradient( rgba(160, 39, 176, 0.2), rgba(233, 30, 99, 0.70) ) no-repeat center fixed; ;
+}
+
+.sign-btn form div{
+    padding-bottom: 10px;
+}
+.sign-btn form div:last-child{
+    padding-left: 2.2cm;
+}
+header a img{
+    width: 1.5cm;
+}
+header a img:hover{
+    background:linear-gradient( rgba(160, 39, 176, 0.4), rgba(243, 8, 86, 0.9) ) no-repeat center fixed; ; ;
+}
