@@ -1,1 +1,1 @@
-web:gunicorn asgi:asgi
+web: gunicorn asgi:asgi
